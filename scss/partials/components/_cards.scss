@@ -59,9 +59,25 @@
     border-radius: 10px
 }
 
-//Card inside Basic-Card
+//BASIC-CARD TYPES
 
-.inside-card{
-    display: flex;
+//Backgrounded:
+
+.basic-card-bg-w{
+    @extend .basic-card;
+    background-color: #ffffff33;
+    
 }
+
+.basic-card-bg-cruzroja{
+    @extend .basic-card;
+    background-image: url(../../../images/cruzrojafondo.png);
+}
+
+.basic-card-bg-techo{
+    @extend .basic-card;
+    background-image: url(../../../images/techofondo.png);
+}
+
+
 

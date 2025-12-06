@@ -1,7 +1,9 @@
-
+@use '../base/tipografia';
 //TITULOS Y ENCABEZADOS
 
 .title{
+    margin: 50px;
+    color: white;
     h1{
         font-family: "Poppins", sans-serif;
         text-decoration: solid;
@@ -13,5 +15,11 @@
         color: white;
 
     }
-    margin: 50px;
+     p{
+        font-family: "Inter", sans-serif;
+        color: white;
+        padding-right: 10px;
+    }
+
 }
+
