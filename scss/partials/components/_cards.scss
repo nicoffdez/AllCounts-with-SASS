@@ -6,6 +6,7 @@
 //BASIC-CARD
 
 .basic-card{
+    
 
     h4{
         font-family: "Poppins", sans-serif;
@@ -59,14 +60,23 @@
             border-radius: 10px;
             background-color: #ffffff33;
         }
+        display: inline-block;
         text-align: center;
         font-size: 20px;
+        transform: 0.25s ease-out;
+        box-shadow: 0.25s ease-out;
+    }
+    .button:hover{
+    transform: translateY(-4px) scale(1.01);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18)
     }
     margin: 50px;
     padding: 15px;
     border: white 3px solid;
     border-radius: 10px
 }
+
+
 
 //Basic-card types:
 
@@ -93,6 +103,8 @@
 
 .card{
     margin: 30px;
+    transform: 0.25s ease-out;
+    box-shadow: 0.25s ease-out;
     
 }
 .notice-card{
@@ -131,6 +143,10 @@
      
 
 }
+.card:hover{
+    transform: translateY(-4px) scale(1.01);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18)
+    }
 
 //BORDER-CARD
 

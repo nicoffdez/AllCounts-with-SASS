@@ -1,0 +1,23 @@
+
+
+.navbar{
+    background-color: #00000066;
+    border-radius: 10px;
+    margin: 50px;
+    .navbar-nav{
+        .nav-item{
+            .nav-link{
+                font-family: "Inter", sans-serif;
+                text-decoration: none;
+                color: white;
+                padding: 10px;
+            }
+        }
+    }
+    span{
+        font-family: "Questrial", sans-serif;
+        color: white;
+        font: x-small;
+
+    }
+}
