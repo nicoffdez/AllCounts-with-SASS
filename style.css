@@ -5,41 +5,41 @@
 /*QUESTRIAL (Copyrights)*/
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 /*font-family: "Questrial", sans-serif*/
-.basic-card h4, .basic-card-bg-techo h4, .basic-card-bg-cruzroja h4, .basic-card-bg-w h4 {
+.basic-card h4, .basic-card-bg-techo h4, .basic-card-bg-cruzroja h4, .basic-card-bg-b h4, .basic-card-bg-w h4 {
   font-family: "Poppins", sans-serif;
   text-decoration: solid;
   color: white;
   padding-right: 10px;
 }
-.basic-card h5, .basic-card-bg-techo h5, .basic-card-bg-cruzroja h5, .basic-card-bg-w h5 {
+.basic-card h5, .basic-card-bg-techo h5, .basic-card-bg-cruzroja h5, .basic-card-bg-b h5, .basic-card-bg-w h5 {
   font-family: "Poppins", sans-serif;
   text-decoration: solid;
   color: white;
   padding-right: 10px;
 }
-.basic-card p, .basic-card-bg-techo p, .basic-card-bg-cruzroja p, .basic-card-bg-w p {
+.basic-card p, .basic-card-bg-techo p, .basic-card-bg-cruzroja p, .basic-card-bg-b p, .basic-card-bg-w p {
   font-family: "Inter", sans-serif;
   color: white;
   padding-right: 10px;
 }
-.basic-card ul, .basic-card-bg-techo ul, .basic-card-bg-cruzroja ul, .basic-card-bg-w ul {
+.basic-card ul, .basic-card-bg-techo ul, .basic-card-bg-cruzroja ul, .basic-card-bg-b ul, .basic-card-bg-w ul {
   text-decoration: none;
   list-style: none;
   padding: 10px;
 }
-.basic-card ul li, .basic-card-bg-techo ul li, .basic-card-bg-cruzroja ul li, .basic-card-bg-w ul li {
+.basic-card ul li, .basic-card-bg-techo ul li, .basic-card-bg-cruzroja ul li, .basic-card-bg-b ul li, .basic-card-bg-w ul li {
   font-family: "Inter", sans-serif;
   color: white;
   padding: 10px;
 }
-.basic-card img, .basic-card-bg-techo img, .basic-card-bg-cruzroja img, .basic-card-bg-w img {
+.basic-card img, .basic-card-bg-techo img, .basic-card-bg-cruzroja img, .basic-card-bg-b img, .basic-card-bg-w img {
   display: block;
   margin: 0 auto;
   text-align: center;
   max-height: 80px;
   width: auto;
 }
-.basic-card .button a, .basic-card-bg-techo .button a, .basic-card-bg-cruzroja .button a, .basic-card-bg-w .button a {
+.basic-card .button a, .basic-card-bg-techo .button a, .basic-card-bg-cruzroja .button a, .basic-card-bg-b .button a, .basic-card-bg-w .button a {
   display: inline-block;
   font-family: "Inter", sans-serif;
   text-decoration: solid;
@@ -49,18 +49,18 @@
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.2);
 }
-.basic-card .button, .basic-card-bg-techo .button, .basic-card-bg-cruzroja .button, .basic-card-bg-w .button {
+.basic-card .button, .basic-card-bg-techo .button, .basic-card-bg-cruzroja .button, .basic-card-bg-b .button, .basic-card-bg-w .button {
   display: inline-block;
   text-align: center;
   font-size: 20px;
   transform: 0.25s ease-out;
   box-shadow: 0.25s ease-out;
 }
-.basic-card .button:hover, .basic-card-bg-techo .button:hover, .basic-card-bg-cruzroja .button:hover, .basic-card-bg-w .button:hover {
+.basic-card .button:hover, .basic-card-bg-techo .button:hover, .basic-card-bg-cruzroja .button:hover, .basic-card-bg-b .button:hover, .basic-card-bg-w .button:hover {
   transform: translateY(-4px) scale(1.01);
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
 }
-.basic-card, .basic-card-bg-techo, .basic-card-bg-cruzroja, .basic-card-bg-w {
+.basic-card, .basic-card-bg-techo, .basic-card-bg-cruzroja, .basic-card-bg-b, .basic-card-bg-w {
   margin: 50px;
   padding: 15px;
   border: white 3px solid;
@@ -69,6 +69,10 @@
 
 .basic-card-bg-w {
   background-color: rgba(255, 255, 255, 0.2);
+}
+
+.basic-card-bg-b {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .basic-card-bg-cruzroja {
@@ -197,6 +201,21 @@
   font-family: "Questrial", sans-serif;
   color: white;
   font: x-small;
+}
+
+.accordion {
+  margin: 50px;
+}
+.accordion .accordion-item .accordion-body {
+  background-color: lightgray;
+}
+.accordion .accordion-item .accordion-body p {
+  font-family: "Inter", sans-serif;
+  color: black;
+}
+.accordion .accordion-item .accordion-header {
+  font-family: "Inter", sans-serif;
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

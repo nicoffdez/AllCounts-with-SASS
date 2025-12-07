@@ -87,6 +87,11 @@
     background-color: #ffffff33;
     
 }
+.basic-card-bg-b{
+    @extend .basic-card;
+    background-color: #00000033;
+    
+}
 
 .basic-card-bg-cruzroja{
     @extend .basic-card;
