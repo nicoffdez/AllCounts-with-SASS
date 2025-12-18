@@ -1,14 +1,16 @@
 @use '../base/tipografia';
+
 //TITULOS Y ENCABEZADOS
 
 .title{
+    grid-area: title;
     margin: 50px;
     color: white;
     h1{
         font-family: "Poppins", sans-serif;
         text-decoration: solid;
         color: white;
-        font-size: 50px;
+       
     }
     h2{
         font-family: "Inter", sans-serif;
@@ -38,3 +40,21 @@
 
 }
 
+//INFORMACION
+
+.info{
+    grid-area: info;
+}
+
+//RESPONSIVE CELULAR
+@media (max-width: 480px) {
+  .title {
+    margin: 12px;
+    max-width: 100%;
+  }
+
+  .title h1 {
+    font-size: 28px;
+    line-height: 1.1;
+  }
+}

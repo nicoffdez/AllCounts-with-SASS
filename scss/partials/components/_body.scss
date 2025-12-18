@@ -17,3 +17,12 @@
 .sobre-allcounts-bg{
     background-image: url(../../../images/4.png);
 }
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
