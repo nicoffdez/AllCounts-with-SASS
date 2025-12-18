@@ -2,9 +2,15 @@
 
 //TITULOS Y ENCABEZADOS
 
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+
 .title{
-    grid-area: title;
-    margin: 50px;
+    margin: 20px 40px 20px 40px;
     color: white;
     h1{
         font-family: "Poppins", sans-serif;
@@ -39,13 +45,6 @@
     }
 
 }
-
-//INFORMACION
-
-.info{
-    grid-area: info;
-}
-
 //RESPONSIVE CELULAR
 @media (max-width: 480px) {
   .title {
