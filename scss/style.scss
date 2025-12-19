@@ -5,7 +5,6 @@
 
 // COMPONENTS
 
-@use './partials/components/cards';
 @use './partials/components/header';
 @use './partials/components/body';
 @use './partials/components/main';
@@ -14,4 +13,5 @@
 @use './partials/components/navbar';
 @use './partials/components/accordion';
 @use './partials/components/carrousel';
+@use './partials/components/cards'
 
