@@ -1,5 +1,5 @@
 @use '../base/tipografia';
-
+//VARIABLES
 $bg-white-transparent: #ffffff33;
 $bg-black-transparent: #00000033;
 $bg-white: #ffffff;
@@ -10,9 +10,9 @@ $text-white: #ffffff;
 $card-radius: 10px;
 $card-padding: 10px;
 
-.margin{
-    margin: 30px;
-}
+
+//BUTTON
+
 .button{
         a{
             display: inline-block;
@@ -35,7 +35,7 @@ $card-padding: 10px;
         }
     }
 
-
+//BASIC CARD
 .basic-card{
     background: $bg-black-transparent;
     color: $text-white;
@@ -69,11 +69,12 @@ $card-padding: 10px;
 
 .basic-card-left{
     @extend .basic-card;
-    
+
     align-items: flex-start;
     text-align: left;
 }
 
+//NOTICE CARD
 .notice-card{
     background-color: $bg-white;
     color: $text-black;
@@ -109,6 +110,7 @@ $card-padding: 10px;
     }
 }
 
+//FEATURED CARD (RESALTADA)
 .featured-card{
     background-color: $bg-black-transparent;
     color: $text-white;
@@ -126,6 +128,7 @@ $card-padding: 10px;
     }
 }
 
+//IMAGE CARD
 .image-card{
     background-color: $bg-black-transparent;
     color: $text-white;
@@ -205,6 +208,53 @@ $card-padding: 10px;
     padding: $card-padding;
    }
 
+}
+//ICON CARD
+.icon-card {
+  background-color: $bg-black-transparent;
+  color: $text-white;
+  padding: $card-padding;
+  border-radius: $card-radius;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+  opacity: 0.95;
+  transition: opacity 0.3s ease;
+
+  &:hover {
+    opacity: 1;
+  }
+  .icon {
+    font-size: 50px;
+  }
+  h4 {
+    font-family: "Poppins", sans-serif;
+    text-decoration: solid;
+  }
+  p {
+    font-family: "Inter", sans-serif;
+    text-decoration: solid;
+  }
+  ul{
+        text-decoration: none;
+        list-style: none;
+        padding: 10px;
+        li{
+            font-family: "Inter", sans-serif;
+            color: white;
+            padding: 10px;
+        }
+    }
+}
+ //FAQ GRID
+
+ .faq-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
 }
 
 @media (max-width: 768px){
